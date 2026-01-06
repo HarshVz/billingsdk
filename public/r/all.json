@@ -1,6 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "all",
+  "type": "registry:block",
   "title": "All Components",
   "description": "All components in the BillingSDK",
   "registryDependencies": [
@@ -28,12 +29,12 @@
     "@billingsdk/payment-card",
     "@billingsdk/billing-settings",
     "@billingsdk/proration-preview",
+    "@billingsdk/proration-preview",
     "@billingsdk/upcoming-charges",
     "@billingsdk/coupon",
     "@billingsdk/limited-offer-dialog",
     "@billingsdk/payment-failure",
     "@billingsdk/billing-screen"
   ],
-  "files": [],
-  "type": "registry:block"
+  "files": []
 }
